@@ -43,31 +43,31 @@ const Navbar = () => {
                 data-te-dropdown-menu-ref=""
               >
                 <li>
-                  <a
+                  <Link
                     className="block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
-                    href="#"
+                    to="/Register"
                     data-te-dropdown-item-ref=""
                   >
-                    Action
-                  </a>
+                    Register
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
-                    href="#"
+                    to="/login"
                     data-te-dropdown-item-ref=""
                   >
-                    Another action
-                  </a>
+                    Login
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <span
                     className="block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-neutral-700 hover:bg-neutral-100 active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:bg-white/30"
-                    href="#"
+                    role="button"
                     data-te-dropdown-item-ref=""
                   >
-                    Something else here
-                  </a>
+                    Logout
+                  </span>
                 </li>
               </ul>
             </div>
