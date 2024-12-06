@@ -45,6 +45,7 @@ const Register = () => {
               type="password"
               className="peer"
               placeholder=" "
+              required
             />
             <label htmlFor="floating_password">Password</label>
           </div>
