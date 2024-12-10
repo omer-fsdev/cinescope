@@ -12,7 +12,7 @@ const createUser = async (email, password) => {
   }
 };
 const AuthContextProvider = ({ children }) => {
-  const values = { currentUser: { displayName: "WIP" } };
+  const values = { currentUser: { displayName: "WIP" }, createUser };
   return <AuthContext.Provider value={values}>{children}</AuthContext.Provider>;
 };
 
